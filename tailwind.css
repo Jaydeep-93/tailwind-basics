@@ -8,19 +8,19 @@
         src: url(/dist/fonts/Oswald/Oswald-Bold.ttf) format("truetype");
     }    
     h1 {
-    @apply mb-6 text-4xl sm:text-5xl text-mainColor;
+    @apply mb-6 text-4xl sm:text-5xl text-mainColor xl:text-6xl;
     }
     h2 {
-    @apply mb-3 text-2xl sm:text-2xl text-mainColor;
+    @apply mb-3 text-2xl sm:text-2xl text-mainColor xl:text-4xl;
     }
     h3 {
-    @apply mb-2 sm:text-xl md:text-2xl text-mainColor;
+    @apply mb-2 sm:text-xl md:text-2xl text-mainColor xl:text-3xl;
     }
     p {
-        @apply text-lg
+        @apply text-lg xl:text-2xl
     }
     li {
-        @apply mb-2 text-sm md:text-base
+        @apply mb-2 text-sm md:text-base xl:text-2xl
         
     }
 }
