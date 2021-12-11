@@ -16,5 +16,8 @@
     "postcss-cli": "^9.1.0",
     "tailwindcss": "^2.0.2",
     "tailwindcss-debug-screens": "^2.2.1"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3"
   }
 }
